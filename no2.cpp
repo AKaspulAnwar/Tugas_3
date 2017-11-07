@@ -19,6 +19,8 @@ int main(){
 		cin >> l;
 	}
 	else if (datar == 'S' || datar =='s'){
-		
+		cout << " Menghitung luas segitiga \n";
+		cout << " Masukan alasnya : ";
+		cin >> a;
 	}
 }
