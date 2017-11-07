@@ -10,4 +10,6 @@ int main(){
 	cin >> gape;
 	cout << " Masukan jam kerja : ";
 	cin >> jake;
+	
+	lembur = jake - 40;
 }
