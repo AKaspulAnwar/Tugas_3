@@ -25,6 +25,9 @@ int main(){
 		cout << " Masukan alasnya : ";
 		cin >> a;
 		
+		cout << " Masukan tingginya : ";
+		cin >> t;
+		
 		
 	}
 }
