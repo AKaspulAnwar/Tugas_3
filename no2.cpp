@@ -9,4 +9,8 @@ int main(){
 	
 	cout << "Pilih datar (p/s) : ";
 	cin >> datar;
+	
+	if (datar == 'P' || datar == 'p'){
+		
+	}
 }
