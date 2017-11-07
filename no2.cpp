@@ -17,10 +17,14 @@ int main(){
 		
 		cout << " Masukan lebarnya : ";
 		cin >> l;
+		L = p*l;
+		cout << " Luas persegi panjang : "<< L << endl;
 	}
 	else if (datar == 'S' || datar =='s'){
 		cout << " Menghitung luas segitiga \n";
 		cout << " Masukan alasnya : ";
 		cin >> a;
+		
+		
 	}
 }
