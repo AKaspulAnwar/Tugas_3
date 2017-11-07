@@ -12,4 +12,5 @@ int main(){
 	cin >> jake;
 	
 	lembur = jake - 40;
+	gatot = (lembur*1.5+40)+gape;
 }
