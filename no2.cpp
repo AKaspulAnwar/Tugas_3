@@ -7,7 +7,7 @@ int main(){
 	char datar;
 	double L,p,l,a,t;
 	
-	cout << "Pilih datar (p/s) : ";
+	cout << "Pilih  bangun datar (p/s) : ";
 	cin >> datar;
 	
 	if (datar == 'P' || datar == 'p'){
@@ -31,6 +31,6 @@ int main(){
 		cout << " Luas segitiga : "<< L << endl;
 	}
 	else {
-		cout << " Sorry, wrong entered"<< endl;
+		cout << " Sorry, wrong entered \a"<< endl;
 	}
 }
