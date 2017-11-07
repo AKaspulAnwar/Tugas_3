@@ -29,7 +29,8 @@ int main(){
 		cin >> t;
 		L = 0.5 *a*t;
 		cout << " Luas segitiga : "<< L << endl;
-		
-		
+	}
+	else {
+		cout << " Sorry, wrong entered"<< endl;
 	}
 }
