@@ -15,5 +15,7 @@ int main(){
 		cout << " Masukan panjangnya : ";
 		cin >> p;
 		
+		cout << " Masukan lebarnya : ";
+		cin >> l;
 	}
 }
