@@ -19,5 +19,7 @@ int main() {
 	}
 	else if (x < y){
 		w = y - x ;
+		cout << "Y-X = ";
+		cout << abs (w) << endl;
 	}
 }
