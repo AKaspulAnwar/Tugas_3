@@ -5,13 +5,13 @@ using namespace std;
 int main (){
 	int nilai;
 	
-	cout <<" Masukan nilai : ";
+	cout <<" Input nilai : ";
 	cin >> nilai;
 	
 	if (nilai >0)
-		cout <<" nilai positif";
+		cout <<" (+)positif";
 	else if (nilai <0)
-		cout <<" nilai negatif";
+		cout <<" (-)negatif";
 	else 
 		cout <<" nilai 0";
 }
