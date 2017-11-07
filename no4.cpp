@@ -10,4 +10,6 @@ int main (){
 	
 	if (nilai >0)
 		cout <<" nilai positif";
+	else if (nilai <0)
+		cout <<" nilai negatif";
 }
