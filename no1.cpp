@@ -10,4 +10,9 @@ int main() {
 	
 	cout << "Masukan nilai y = ";
 	cin >> y;
+	
+	if (x > y){
+		w = x - y ;
+		cout << "X-Y = ";
+	}
 }
