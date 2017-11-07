@@ -5,21 +5,21 @@
  	float berat;
  	int tinggi;
  	
- 	cout <<" Masukan tinggi badan dalam cm : ";
+ 	cout <<" input tinggi badan (cm): ";
  	cin >> tinggi;
  	
- 	cout <<" Masukan berat badan dalam kg : ";
+ 	cout <<" input berat badan (kg) : ";
  	cin >> berat;
  	
  	if (berat<tinggi/2.5) {
- 		cout <<" Hasil : Kurus "<< endl;
+ 		cout <<" Hasil : Kurus: tambah lagi beratnya "<< endl;
 	 }
 	 
 	else if (tinggi/2.5 <= berat && berat <= tinggi/2.3) {
-		cout <<" Hasil : Normal "<< endl;
+		cout <<" Hasil : Normal: ideal, pertahankan "<< endl;
 	}
 	
 	else if (tinggi/2.3 < berat) {
-		cout <<" Hasil : Berat "<< endl;
+		cout <<" Hasil : Berat: banyaki olahraga,kurangi porsi makanan "<< endl;
 	}
  }
