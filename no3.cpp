@@ -5,4 +5,7 @@
 using namespace std;
 int main(){
 	int gape,jake,lembur,gatot,pajak ;
+	
+	cout << " Masukan gaji pegawai : ";
+	cin >> gape;
 }
