@@ -14,5 +14,6 @@ int main() {
 	if (x > y){
 		w = x - y ;
 		cout << "X-Y = ";
+		cout << abs (w) << endl;
 	}
 }
