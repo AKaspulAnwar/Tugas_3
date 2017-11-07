@@ -25,5 +25,7 @@ int main() {
 	}
 	else if (w == 0){
 		w = w * (-1) ;
+		cout << abs (x-y) << endl;
+		cout << "Netral";
 	}
 }
