@@ -15,5 +15,6 @@ int main() {
 		w = x - y ;
 		cout << "X-Y = ";
 		cout << abs (w) << endl;
+		cout << "Positif";
 	}
 }
