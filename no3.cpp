@@ -15,6 +15,8 @@ int main(){
 	gatot = (lembur*1.5+40)+gape;
 	pajak = gatot*0.15;
 	gatot = gatot-pajak;
+	
 	cout << " Lemburan : "<< lembur << endl ;
+	cout << " Potongan pajak 15% : "<< pajak << endl;
 	cout << " Gaji bersih pegawai : "<< gatot << endl;
 }
