@@ -27,6 +27,8 @@ int main(){
 		
 		cout << " Masukan tingginya : ";
 		cin >> t;
+		L = 0.5 *a*t;
+		cout << " Luas segitiga : "<< L << endl;
 		
 		
 	}
