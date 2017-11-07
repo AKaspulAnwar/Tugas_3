@@ -17,4 +17,7 @@ int main() {
 		cout << abs (w) << endl;
 		cout << "Positif";
 	}
+	else if (x < y){
+		w = y - x ;
+	}
 }
