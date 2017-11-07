@@ -23,4 +23,7 @@ int main() {
 		cout << abs (w) << endl;
 		cout << "Positif";
 	}
+	else if (w == 0){
+		w = w * (-1) ;
+	}
 }
