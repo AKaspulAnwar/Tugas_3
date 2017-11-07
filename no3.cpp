@@ -4,5 +4,5 @@
 
 using namespace std;
 int main(){
-	int gapo,jake,lembur,gatot,pajak ;
+	int gape,jake,lembur,gatot,pajak ;
 }
