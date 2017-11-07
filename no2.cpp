@@ -18,4 +18,7 @@ int main(){
 		cout << " Masukan lebarnya : ";
 		cin >> l;
 	}
+	else if (datar == 'S' || datar =='s'){
+		
+	}
 }
