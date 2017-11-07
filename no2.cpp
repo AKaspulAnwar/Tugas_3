@@ -11,6 +11,7 @@ int main(){
 	cin >> datar;
 	
 	if (datar == 'P' || datar == 'p'){
-		
+		cout << " Menghitung luas persegi panjang \n";
+		cout << " Masukan panjangnya : ";
 	}
 }
