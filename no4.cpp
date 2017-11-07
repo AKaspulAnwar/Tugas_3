@@ -7,4 +7,7 @@ int main (){
 	
 	cout <<" Masukan nilai : ";
 	cin >> nilai;
+	
+	if (nilai >0)
+		cout <<" nilai positif";
 }
