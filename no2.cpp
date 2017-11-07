@@ -4,5 +4,6 @@
 
 using namespace std;
 int main(){
-	
+	char datar;
+	double L,p,l,a,t;
 }
