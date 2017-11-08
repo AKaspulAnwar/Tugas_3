@@ -11,8 +11,8 @@ int main(){
 	cout << " Input jam kerja : ";
 	cin >> jake;
 	
-	lembur = jake - 40;
-	gatot = (lembur*1.5+40)+gape;
+	lembur = (jake - 40)*(gape / 40);
+	gatot = (lembur*1.5)+gape;
 	pajak = gatot*0.15;
 	gabe = gatot-pajak;
 	
