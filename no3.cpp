@@ -4,7 +4,7 @@
 
 using namespace std;
 int main(){
-	int gape,jake,lembur,gatot,pajak ;
+	int gape,jake,lembur,gatot,pajak,gabe ;
 	
 	cout << " Input gaji pegawai : ";
 	cin >> gape;
@@ -14,9 +14,10 @@ int main(){
 	lembur = jake - 40;
 	gatot = (lembur*1.5+40)+gape;
 	pajak = gatot*0.15;
-	gatot = gatot-pajak;
+	gabe = gatot-pajak;
 	
 	cout << " Lemburan : "<< lembur << endl ;
+	cout << " Total  gaji : "<< gatot << endl;
 	cout << " Potongan pajak 15% : "<< pajak << endl;
-	cout << " Gaji bersih pegawai : "<< gatot << endl;
+	cout << " Gaji bersih pegawai : "<< gabe << endl;
 }
